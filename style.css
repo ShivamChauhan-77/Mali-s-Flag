@@ -6,11 +6,13 @@
     height:200px;
     width:calc(200px*3/2);
     margin:2em auto;
-    display:flex;
+    /* display:flex; */
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
 }
-.stripe{
+/* .stripe{
     flex-grow:1;
-}
+} */
 .green{
     background-color: green;
 }
